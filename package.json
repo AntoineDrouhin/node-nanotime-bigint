@@ -1,0 +1,17 @@
+{
+  "name": "nanotime-bigint",
+  "version": "0.1.0",
+  "description": "Return the current nanotime as a bigint value",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "author": "antoine drouhin <antoine.drouhin@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "typescript": "^3.4.5"
+  }
+}
